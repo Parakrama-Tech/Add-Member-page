@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <img id="headimg" src="para.png" alt="">
+    </header>
+    <input type="checkbox" id="check">
+    <label for="check">
+        <i class="fas fa-bars" id="btn"></i>
+        <i class="fas fa-times" id="cancel"></i>
+    </label>
+    <div class="sidemenu">
+        <img src="reg.jpg" alt="">
+        <ul class="progressbar">
+            <li class="active"> Basic Details</li>
+            <li> Basic Medical Details</li>
+            <li> Previous Consultations</li>
+            <li> Tests</li>
+            <li> Medications</li>
+            <li> Addictions</li>
+            <li> Family History</li>
+            <li> Personal Complaints</li>
+            <li> Period Cylcle(for women)</li>
+        </ul>
+    </div>
+    <section class="xyz basic-details">
+        <h2 class="titles">Basic Details</h2>
+        <div class="container">
+            <div class="contact-form row">
+                <div class="form-field col-lg-4">
+                    <input type="text" id="name1" class="input-text" name="">
+                    <label for="name1" class="label">First Name</label>
+                </div>
+                <div class="form-field col-lg-4">
+                    <input type="text" id="name2" class="input-text" name="">
+                    <label for="name2" class="label">Middle Name</label>
+                </div>
+                <div class="form-field col-lg-4">
+                    <input type="text" id="name3" class="input-text" name="">
+                    <label for="name3" class="label">Last Name</label>
+                </div>
+                <div class="form-field col-lg-6">
+                    <input type="number" id="mbno" class="input-text" name="">
+                    <label for="mbno" class="label">Mobile Number</label>
+                </div>
+                <div class="form-field col-lg-6">
+                    <input type="number" id="dob" class="input-text" name="">
+                    <label for="dob" class="label">Date of Birth</label>
+                </div>
+                <h3 class="insideHeading">Residential Address</h3>
+                <div class="form-field col-lg-6">
+                    <input type="text" id="stad" class="input-text" name="">
+                    <label for="stad" class="label">Street Address</label>
+                </div>
+                <div class="form-field col-lg-6">
+                    <input type="text" id="city" class="input-text" name="">
+                    <label for="city" class="label">City</label>
+                </div>
+                <div class="form-field col-lg-6">
+                    <input type="text" id="state" class="input-text" name="">
+                    <label for="state" class="label">State/Province</label>
+                </div>
+                <div class="form-field col-lg-6">
+                    <input type="number" id="pin-code" class="input-text" name="">
+                    <label for="pin-code" class="label">Pin Code</label>
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+    </section>
+    <hr style="height: 2px;color: #000;">
+
+    <section class="xyz Basic-Medical-Details">
+        <h2 class="titles">Basic Medical Details</h2>
+        <div class="container">
+            <div class="contact-form row">
+                <div class="form-field col-lg-4">
+                    <input type="number" id="weight" class="input-text" name="">
+                    <label for="weight" class="label">Weight(kgs)</label>
+                </div>
+                <div class="form-field col-lg-4">
+                    <input type="number" id="height" class="input-text" name="">
+                    <label for="height" class="label">Height(cms)</label>
+                </div>
+                <div class="form-field col-lg-4">
+                    <input type="text" id="blgrp" class="input-text" name="">
+                    <label for="blgrp" class="label">Blood Group</label>
+                </div>
+                <div class="form-field col-lg-6">
+                    <input type="text" id="glvl" class="input-text" name="">
+                    <label for="glvl" class="label">Glucose Level(if diabetic)</label>
+                </div>
+                <div class="form-field col-lg-6">
+                    <input type="number" id="bp" class="input-text" name="">
+                    <label for="bp" class="label">Blood Pressure(if hypertensive)</label>
+                </div>
+                <div class="form-field col">
+                    <input type="text" id="allergy" class="input-text" name="">
+                    <label for="allergy" class="label">Any allergies</label>
+                </div>
+                <div class="form-field col">
+                    <input type="text" id="medication" class="input-text" name="">
+                    <label for="medication" class="label">Any ongoing medications</label>
+                </div>
+                <div class="form-field col">
+                    <input type="text" id="info" class="input-text" name="">
+                    <label for="info" class="label">Other crucial information</label>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="xyz previous-consultations">
+        <h2 class="titles">Previous Consultations</h2>
+        <div class="container">
+            <div class="contact-form row">
+                <div class="form-field col-lg-6">
+                    <input type="date" id="dt" class="input-text" name="">
+                    <label for="dt" class="label"></label>
+                </div>
+                <div class="form-field col-lg-6">
+                    <input type="text" id="bp" class="input-text" name="">
+                    <label for="bp" class="label">Doctor</label>
+                </div>
+                <div class="form-field col-lg-12">
+                    <input type="text" id="hospital" class="input-text" name="">
+                    <label for="hospital" class="label">Name of the Hospital/Medical Institution</label>
+                </div>
+                <div class="form-field col-lg-12">
+                    <input type="text" id="diagnosis" class="input-text" name="">
+                    <label for="diagnosis" class="label">Diagnosis</label>
+                </div>
+                <div class="form-field col-lg-6">
+                    <input type="text" readonly class="form-control-plaintext" id="upldoc"
+                        value="Upload Relevant Documents">
+                </div>
+                <div class="form-field col-lg-6">
+                    <button class="btn-top mb-6" type="submit">Browse</button>
+
+                </div>
+                <div class="form-field col-lg-6">
+                    <input type="text" readonly class="form-control-plaintext" id="rmdtset" value="Recommended Tests">
+                </div>
+                <div class="form-field col-lg-6">
+                    <button class="btn-top mb-6" type="submit">Add Test Details</button>
+
+                </div>
+                <div class="form-field col-lg-6">
+                    <input type="text" readonly class="form-control-plaintext" id="addmed" value="Medications">
+                </div>
+                <div class="form-field col-lg-6">
+                    <button class="btn-top mb-6" type="submit">Add Medications</button>
+                </div>
+                <div class="form-field col">
+                    <button class="btn-top justify-content-right" type="submit">Add More</button>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <hr style="height: 2px;color: #000;">
+
+    <section class="xyz Tests">
+        <h2 class="titles">Tests</h2>
+        <div class="container">
+            <div class="contact-form row">
+                <div class="form-field col-lg-12">
+                    <input type="text" id="test" class="input-text" name="">
+                    <label for="test" class="label">Name of the test</label>
+                </div>
+                <div class="form-field col-lg-6">
+                    <input type="date" id="tstdt" class="input-text" name="">
+                    <label for="tstdt" class="label"></label>
+                </div>
+                <div class="form-field col-lg-6">
+                    <input type="text" id="Diagnostic-centre" class="input-text" name="">
+                    <label for="Diagnostic-centre" class="label">Diagnostic Centre</label>
+                </div>
+                <div class="form-field col-lg-12">
+                    <input type="text" id="issue" class="input-text" name="">
+                    <label for="issue" class="label">Issue</label>
+                </div>
+                <div class="form-field col-lg-12">
+                    <input type="text" id="ref-doc" class="input-text" name="">
+                    <label for="ref-doc" class="label">Referral Doctor</label>
+                </div>
+                <div class="form-field col-lg-12">
+                    <input type="text" id="parameter" class="input-text" name="">
+                    <label for="parameter" class="label">Approved Parameters</label>
+                </div>
+                <div class="form-field col-lg-12">
+                    <input type="text" id="test-results" class="input-text" name="">
+                    <label for="test-results" class="label">Test Results</label>
+                </div>
+                <div class="form-field col-lg-12">
+                    <input type="text" id="Impression" class="input-text" name="">
+                    <label for="Impression" class="label">Pathologist's Impression</label>
+                </div>
+                <div class="form-field col-lg-6">
+                    <input type="text" readonly class="form-control-plaintext" id="upldoc"
+                        value="Upload Relevant Documents">
+                </div>
+                <div class="form-field col-lg-6">
+                    <button class="btn-top mb-6" type="submit">Browse</button>
+                </div>
+                <div class="form-field col">
+                    <button class="btn-top me-auto" type="submit">Add More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr style="height: 2px;color: #000;">
+
+    <section class="xyz medications">
+        <h2 class="titles">Medications</h2>
+        <div class="container">
+            <div class="contact-form row">
+                <div class="form-field col-lg-6">
+                    <input type="text" id="tencdt" class="input-text" name="">
+                    <label for="tencdt" class="label">Tentative Course Date</label>
+                </div>
+                <div class="form-field col-lg-6">
+                    <input type="text" id="med-doc" class="input-text" name="">
+                    <label for="med-doc" class="label">Doctor</label>
+                </div>
+                <div class="form-field col-lg-12">
+                    <input type="text" id="dosage" class="input-text" name="">
+                    <label for="dosage" class="label">Add Drug and Dosage</label>
+                </div>
+                <div class="form-field col-lg-12">
+                    <input type="text" id="diag-doc" class="input-text" name="">
+                    <label for="diag-doc" class="label">Diagnosis</label>
+                </div>
+                <div class="form-field col-lg-6">
+                    <input type="text" readonly class="form-control-plaintext" id="upldoc"
+                        value="Upload Relevant Documents">
+                </div>
+                <div class="form-field col-lg-6">
+                    <button class="btn-top mb-6" type="submit">Browse</button>
+                </div>
+                <div class="form-field col">
+                    <button class="btn-top me-auto" type="submit">Add More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr style="height: 2px;color: #000;">
+
+    <section class="xyz Addictions">
+        <h2 class="titles">Addictions</h2>
+        <div class="container">
+            <div class="contact-form row">
+                <select id="abc" class="dpdwn form-select-lg mb-3" aria-label=".form-select-lg example">
+                    <option selected>Name of Additive Substance</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                </select>
+                <div class="form-field col-lg-4">
+                    <input type="text" id="freq" class="input-text" name="">
+                    <label for="freq" class="label">Frequency</label>
+                </div>
+
+                <div class="form-field col-lg-4">
+                    <input type="text" id="ad-dt" class="input-text" name="">
+                    <label for="ad-dt" class="label">Start Date</label>
+                </div>
+                <div class="form-field col-lg-4">
+                    <input type="text" id="adend" class="input-text" name="">
+                    <label for="adend" class="label">End Date</label>
+                </div>
+                <div class="form-field col-lg-12">
+                    <input type="text" id="rhbtaken" class="input-text" name="">
+                    <label for="rhbtaken" class="label">If any rehabiltation taken</label>
+                </div>
+                <div class="form-field col-lg-12">
+                    <input type="text" id="namerhb" class="input-text" name="">
+                    <label for="namerhb" class="label">Name of the Rehabiltation Centre</label>
+                </div>
+                <div class="form-field col">
+                    <button class="btn-top me-auto" type="submit">Add More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr style="height: 2px;color: #000;">
+
+    <section class="xyz Family Report">
+        <h2 class="titles">Family Report</h2>
+        <div class="container">
+            <div class="contact-form row">
+                <div class="form-field col-lg-12">
+                    <input type="text" id="fam-mem" class="input-text" name="">
+                    <label for="fam-mem" class="label">Name of the family member</label>
+                </div>
+                <div class="form-field col-lg-12">
+                    <input type="text" id="rltn" class="input-text" name="">
+                    <label for="rltn" class="label">Relationship</label>
+                </div>
+                <div class="col-md-4">
+                    <select class="dpdwn form-select" id="state" required>
+                        <option value="">Disease</option>
+                        <option>corona</option>
+                    </select>
+                </div>
+                <div class="form-field col-lg-12">
+                    <input type="text" id="cod" class="input-text" name="">
+                    <label for="cod" class="label">Cause of Death (if dead)</label>
+                </div>
+                <div class="form-field col">
+                    <button class="btn-top me-auto" type="submit">Add More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr style="height: 2px;color: #000;">
+
+    <section class="xyz personal-compaints">
+        <h2 class="titles">Personal Complaints</h2>
+        <div class="container">
+            <div class="contact-form row">
+                <div class="form-field col-lg-4">
+                    <input type="date" id="comp-date" class="input-text" name="">
+                    <label for="comp-date" class="label"></label>
+                </div>
+                <div class="form-field col-lg-12">
+                    <input type="text" id="issue" class="input-text" name="">
+                    <label for="issue" class="label">Issue/Complaints</label>
+                </div>
+                <div class="form-field col-lg-12">
+                    <input type="text" id="med-taken" class="input-text" name="">
+                    <label for="med-taken" class="label">Wheather any medications taken</label>
+                </div>
+                <div class="form-field col">
+                    <button class="btn-top me-auto" type="submit">Add More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <section class="xyz period-cycle">
+        <h2 class="titles">Period Cycle</h2>
+        <div class="container">
+            <div class="contact-form row">
+                <div class="form-field col-lg-6">
+                    <input type="text" id="yr-menarche" class="input-text" name="">
+                    <label for="yr-menarche" class="label">Year of Menarche</label>
+                </div>
+                <div class="form-field col-lg-6">
+                    <input type="text" id="issue" class="input-text" name="">
+                    <label for="" class="label">Start Date</label>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
